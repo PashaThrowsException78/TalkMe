@@ -1,0 +1,10 @@
+{
+  "name": "my_product",
+  "price": 1000,
+  "model": "Model22",
+  "url": "https://google.com",
+  "pictures": [
+    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fanimal%2F&psig=AOvVaw1ltiOJYGdxiwv178ZCD-UD&ust=1670423324772000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPje7_iZ5fsCFQAAAAAdAAAAABAE",
+    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fru.wikipedia.org%2Fwiki%2FParamount_Pictures&psig=AOvVaw1ltiOJYGdxiwv178ZCD-UD&ust=1670423324772000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPje7_iZ5fsCFQAAAAAdAAAAABAJ"
+  ]
+}
