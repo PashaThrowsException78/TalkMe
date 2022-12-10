@@ -7,4 +7,6 @@ import org.springframework.stereotype.Service;
 public interface ProductService {
 
     void save(ProductDTO productDTO);
+
+    boolean saveImage(String img, Long productId);
 }
