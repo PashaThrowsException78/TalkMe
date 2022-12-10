@@ -7,7 +7,7 @@ import java.security.NoSuchAlgorithmException;
 public class PasswordEncoder {
     public static String get_SHA_512_SecurePassword(String passwordToHash){
         String generatedPassword = null;
-        String salt = "s08cs01";
+        String salt = "s08cs01ddddd";
         try {
             MessageDigest md = MessageDigest.getInstance("SHA-512");
             md.update(salt.getBytes(StandardCharsets.UTF_8));

@@ -20,6 +20,7 @@ public class ProductController {
     }
 
     @PostMapping
+    @ResponseBody
     public ResponseEntity<?> uploadProduct(@RequestBody ProductDTO productDTO) {
 
         if (ProductValidator.isValid(productDTO)) {
@@ -32,6 +33,7 @@ public class ProductController {
     }
 
     @PostMapping("image/new/")
+    @ResponseBody
     public ResponseEntity<?> uploadImage(String image, Long productId,
                                          @RequestParam String login, @RequestParam String password) {
 
