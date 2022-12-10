@@ -31,7 +31,7 @@ public class ProductController {
 
     }
 
-    @PatchMapping("image/new/")
+    @PostMapping("image/new/")
     public ResponseEntity<?> uploadImage(String image, Long productId,
                                          @RequestParam String login, @RequestParam String password) {
 
