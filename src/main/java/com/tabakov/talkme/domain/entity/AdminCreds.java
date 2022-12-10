@@ -16,8 +16,8 @@ public class AdminCreds {
     private Long id;
 
     @Column(name = "login")
-    private String login;
+    private String login = "admin";
 
     @Column(name = "password")
-    private String password;
+    private String password = "password";
 }
